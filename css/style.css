@@ -1,0 +1,136 @@
+#fondo{
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    width: 1200px;
+    height: 900px;
+    animation: pulse 10s infinite;
+}
+@keyframes pulse {
+    0% {
+      background: url(../img/video1.gif);
+    }
+    50% {
+      background:url(../img/video2.gif);
+    }
+    100% {
+        background:url(../img/video3.gif);
+      }
+  }
+#cara{
+    top: 280px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0 auto;
+    transition: 1s;
+
+}
+#cara:hover{
+    transform:translateX(-50px);
+}
+#sombrero{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 220px;
+    z-index: 2;
+    transition: 1s;
+}
+
+#sombrero:hover{
+    top:20px;
+    transform: rotate(360deg);
+}
+#ojo-der{
+    position: absolute;
+    margin:0 auto ;
+    z-index: 2;
+    left:43% ;
+    top: 370px;
+    transition: 2s;
+}
+#ojo-izq{
+    position: absolute;
+    margin:0 auto ;
+    z-index: 2;
+    right:43% ;
+    top: 370px;
+    transition: 2s;
+}
+#ojo-der:hover,
+#ojo-izq:hover{
+    top:20px;
+    transform: rotateY(150px);
+}
+#oreja-der{
+    position: absolute;
+    margin: 0 auto;
+    z-index: -1;
+    top: 350px;
+    left: 33%;
+    transition: 1s;
+}
+#oreja-izq{
+    position: absolute;
+    margin: 0 auto;
+    z-index: -1;
+    top: 350px;
+    right: 33%;
+    transition: 1s;
+}
+#oreja-der:hover,
+#oreja-izq:hover{
+    transform: scale(1.8);
+}
+#nariz{
+    position: absolute;
+    margin:  0 auto;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    top: 420px;
+    transition: 1s;
+}
+#nariz:hover{
+    transform: scale(1.3);
+}
+#barba{
+    position: absolute;
+    margin: 0 auto;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 540px;
+    transition: 1s;
+}
+#barba:hover{
+    transform:rotate(180deg);
+    background: #307cda;
+}
+#zapato-der{
+    position: absolute;
+    margin: 0 auto;
+    left: 38%;
+    bottom: 220px;
+    z-index: -1;
+    transition: 2s;
+}
+#zapato-izq{
+    position: absolute;
+    margin: 0 auto;
+    right: 38%;
+    bottom: 220px;
+    z-index: -1;
+    transition: 2s;
+}
+
+#zapato-der:hover,
+#zapato-izq:hover{
+    bottom: 20px;
+    transform: rotateY(-150px);
+}
+
